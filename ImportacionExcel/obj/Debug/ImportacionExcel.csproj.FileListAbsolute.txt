@@ -1,0 +1,11 @@
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\bin\Debug\ImportacionExcel.exe.config
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.Principal.resources
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.RetencionesCM.resources
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.Properties.Resources.resources
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.csproj.GenerateResource.Cache
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\bin\Debug\ImportacionExcel.exe
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\bin\Debug\ImportacionExcel.pdb
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.exe
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.pdb
+C:\Users\Facu\Google Drive\Programación\NET\ImportacionExcel\ImportacionExcel\obj\Debug\ImportacionExcel.csproj.ResolveComReference.cache
