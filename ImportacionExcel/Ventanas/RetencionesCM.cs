@@ -54,8 +54,7 @@ namespace ImportacionExcel
 
         private void RetencionesCM_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(libro != null)
-                libro.Close();
+            
         }
 
 
@@ -78,17 +77,32 @@ namespace ImportacionExcel
         {
             List<Rectangulo> rectangulos = new List<Rectangulo>();
             bool eof = false;
-            object celda;
-            double b, h;
+            object ob, oh;
+            string b, h, testo;
+            double sumAreas = 0;
             int i = 1;
             do
             {
-                celda = hoja.Cells[1, i];
-                b = Double.Parse(celda.ToString());
-                celda = hoja.Cells[2, i];
-                h = Double.Parse(celda.ToString());
-                rectangulos.Add(new Rectangulo(b,h));
+                ob = hoja.Cells[i, 1].Value;
+                oh = hoja.Cells[i, 2].Value;
+                if (ob == null || oh == null)
+                    eof = true;
+                else
+                    rectangulos.Add(new Rectangulo(Double.Parse(ob.ToString()), Double.Parse(oh.ToString())));
+                i++;
             } while (!eof);
+
+            libro.Close();
+
+            testo = "La puta madre\n";
+            testo += "que te pario\n";
+
+            foreach (Rectangulo r in rectangulos)
+            {
+                testo += ("b=" + r.getBase().ToString() + " h=" + r.getAltura().ToString() + "\n");
+            }
+
+            MessageBox.Show(testo, "Hola");
         }
 
         private void label4_Click(object sender, EventArgs e)

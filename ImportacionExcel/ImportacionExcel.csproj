@@ -45,25 +45,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Rectangulo.cs" />
-    <Compile Include="Principal.cs">
+    <Compile Include="Clases\Rectangulo.cs" />
+    <Compile Include="Ventanas\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.Designer.cs">
+    <Compile Include="Ventanas\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="RetencionesCM.cs">
+    <Compile Include="Ventanas\RetencionesCM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RetencionesCM.Designer.cs">
+    <Compile Include="Ventanas\RetencionesCM.Designer.cs">
       <DependentUpon>RetencionesCM.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Principal.resx">
+    <EmbeddedResource Include="Ventanas\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RetencionesCM.resx">
+    <EmbeddedResource Include="Ventanas\RetencionesCM.resx">
       <DependentUpon>RetencionesCM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

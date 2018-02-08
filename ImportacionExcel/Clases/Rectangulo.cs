@@ -17,6 +17,16 @@ namespace ImportacionExcel
             this.h = h;
         }
 
+        public double getBase()
+        {
+            return b;
+        }
+
+        public double getAltura()
+        {
+            return h;
+        }
+
         public double getArea()
         {
             return b * h;
